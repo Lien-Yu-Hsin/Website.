@@ -22,16 +22,31 @@ th {
 
 div {
   display: flex;
-  background-color: darkorchid;
   justify-content: center;
   align-items: center;
   width: 80;
 }
 div h1 {
   margin: 10px;
-  color: aqua;
+  color: darksalmon;
 }
 div p {
   margin: 10px;
-  color: bisque;
+  color: chocolate;
+}
+
+div#container {
+  display: flex;
+}
+div#container div#a {
+  background-color: cadetblue;
+  width: 30rem;
+}
+div#container div#b {
+  background-color: aqua;
+  width: 30rem;
+}
+div#container div#c {
+  background-color: aquamarine;
+  width: 30rem;
 }/*# sourceMappingURL=style.css.map */
